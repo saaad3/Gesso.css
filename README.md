@@ -83,3 +83,7 @@ h4 {
   text-wrap: balance;
 }
 ```
+
+### Feedback & Contribute
+
+Misses anything vital or have suggestions for improvements? Please open an issue or submit a PR.
