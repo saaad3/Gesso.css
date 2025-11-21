@@ -1,0 +1,71 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove styles from lists */
+[role='list'] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Some basic defaults */
+body {
+  min-block-size: 100vh;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+img,
+picture {
+  max-inline-size: 100%;
+  display: block;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
